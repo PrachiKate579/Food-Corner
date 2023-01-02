@@ -1,0 +1,46 @@
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+
+}
+ul li a{
+    height:22rem;
+    width:20rem;
+    border:1px solid whitesmoke;
+    border-radius: 1rem;
+    margin:0.5rem;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    color:#e72929;
+
+}
+li a:hover{
+    opacity: 0.9;
+    cursor:pointer;
+}
+img{
+    height:212px;
+}
+.content{
+    display:inline-block;
+}
+.favourite {
+    float: right;
+}
+
+.origins{
+    display:inline-block;
+    float:left
+}
+.cook-time{
+    float: right;
+}
+.price{
+    color:black;
+    padding: 14px;
+}
